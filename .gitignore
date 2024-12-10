@@ -1,0 +1,20 @@
+# ignore dot env
+.env
+# ignore node_modules
+node_modules
+# ignore build
+build
+# ignore dist
+dist
+# ignore coverage
+coverage
+# ignore .DS_Store
+.DS_Store
+# ignore .vscode
+.vscode
+# ignore .idea
+.idea
+# ignore .cache
+.cache
+# ignore .eslintcache
+.eslintcache
