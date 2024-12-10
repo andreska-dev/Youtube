@@ -1,9 +1,11 @@
 // server.js
 const express = require('express');
+const cors = require('cors'); // Importa el middleware CORS
 require('dotenv').config();  // Cargar el archivo .env
 
 
 const app = express();
+app.use(cors());
 const port = 3000;
 
 const API_KEY = process.env.API_KEY; // Tu API Key
